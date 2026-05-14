@@ -1,4 +1,4 @@
-# org-sync-mod
+# org-sync-mode
 
 An Emacs package to automatically sync Org-mode notes on save with smart debouncing and Git integration.
 
@@ -14,7 +14,7 @@ An Emacs package to automatically sync Org-mode notes on save with smart debounc
 ## Configuration
 Example configuration:
 ```elisp
-(setq org-sync-mod-auto-push t)
-(setq org-sync-mod-auto-pull t)
-(setq org-sync-mod-wait-seconds 60)
+(setq org-sync-mode-auto-push t)
+(setq org-sync-mode-auto-pull t)
+(setq org-sync-mode-wait-seconds 60)
 ```
