@@ -9,7 +9,13 @@ An Emacs package to automatically sync Org-mode notes on save with smart debounc
 - **Configurable Thresholds**: Set the number of saves or the time window for syncing.
 
 ## Installation
-*Coming soon.*
+
+### Using Elpaca
+Add the following to your Emacs configuration:
+```elisp
+(use-package org-sync-mode
+  :ensure (:host github :repo "zauberen/org-sync-mode"))
+```
 
 ## Configuration
 Example configuration:
