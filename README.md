@@ -14,7 +14,7 @@ An Emacs package to automatically sync Org-mode notes on save with smart debounc
 Add the following to your Emacs configuration:
 ```elisp
 (use-package org-sync-mode
-  :ensure (:host github :repo "zauberen/org-sync-mode"))
+  :ensure (:repo "zauberen/org-sync-mode" :host github))
 ```
 
 ## Configuration
